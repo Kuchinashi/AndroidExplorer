@@ -1,10 +1,12 @@
-AndroidExplorer
-===============
+# AndroidExplorer
 
 Android File Explorer on Windows
 
-Download
-------
+## Usage
+
+comming soon.
+
+## Download
 
 latest ver 1.0.3-alpha
 
