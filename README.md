@@ -1,13 +1,13 @@
 # AndroidExplorer
 
-Android File Explorer on Windows
+Android File Explorer for Windows
 
 ## Usage
 
-comming soon.
+http://kuchinashi.github.io/AndroidExplorer/
 
 ## Download
 
-latest ver 1.0.3-alpha
+latest binary ver 1.0.3-alpha
 
 https://github.com/Kuchinashi/AndroidExplorer/raw/master/AndroidExplorer-1.0.3-alpha.7z
