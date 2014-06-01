@@ -9,7 +9,6 @@ namespace AndroidExplorer {
     partial class MainActivity {
 
         private void DirectBoxDispatchKeyEvent(object sender, KeyEventArgs e) {
-            e.SuppressKeyPress = true; // ignore sound
             switch (e.KeyData) {
                 case Keys.Enter:
                     CurrentPath = this.directBox.Text.ToString();
@@ -17,6 +16,10 @@ namespace AndroidExplorer {
                         CurrentPath = "/" + CurrentPath;
                     }
                     RefreshFileList();
+                    e.SuppressKeyPress = true; // ignore sound
+                    break;
+                case Keys.Escape:
+                    e.SuppressKeyPress = true; // ignore sound
                     break;
                 case Keys.F5:
                     DispachKeyEvent(sender, e);
