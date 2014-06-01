@@ -3,7 +3,9 @@ using Microsoft.WindowsAPICodePack.Dialogs;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Globalization;
 using System.IO;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -15,6 +17,7 @@ namespace AndroidExplorer {
         private ImageList ImageList = new ImageList();
 
         public MainActivity() {
+            //Thread.CurrentThread.CurrentUICulture = new CultureInfo("en-US");
             InitializeComponent();
         }
 

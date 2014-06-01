@@ -49,7 +49,6 @@
             // 
             // listView
             // 
-            resources.ApplyResources(this.listView, "listView");
             this.listView.AllowDrop = true;
             this.listView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.fileName,
@@ -59,6 +58,7 @@
             this.date,
             this.link});
             this.listView.ContextMenuStrip = this.contextMenu;
+            resources.ApplyResources(this.listView, "listView");
             this.listView.FullRowSelect = true;
             this.listView.GridLines = true;
             this.listView.LabelEdit = true;
@@ -98,7 +98,6 @@
             // 
             // contextMenu
             // 
-            resources.ApplyResources(this.contextMenu, "contextMenu");
             this.contextMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuRefresh,
             this.toolStripSeparator1,
@@ -106,34 +105,35 @@
             this.menuDelete,
             this.menuItem_Rename});
             this.contextMenu.Name = "contextMenu";
+            resources.ApplyResources(this.contextMenu, "contextMenu");
             // 
             // menuRefresh
             // 
-            resources.ApplyResources(this.menuRefresh, "menuRefresh");
             this.menuRefresh.Name = "menuRefresh";
+            resources.ApplyResources(this.menuRefresh, "menuRefresh");
             this.menuRefresh.Click += new System.EventHandler(this.onMenuSelected_MenuRefresh);
             // 
             // toolStripSeparator1
             // 
-            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
             // 
             // menuDownload
             // 
-            resources.ApplyResources(this.menuDownload, "menuDownload");
             this.menuDownload.Name = "menuDownload";
+            resources.ApplyResources(this.menuDownload, "menuDownload");
             this.menuDownload.Click += new System.EventHandler(this.onMenuSelected_SelectFileDownload);
             // 
             // menuDelete
             // 
-            resources.ApplyResources(this.menuDelete, "menuDelete");
             this.menuDelete.Name = "menuDelete";
+            resources.ApplyResources(this.menuDelete, "menuDelete");
             this.menuDelete.Click += new System.EventHandler(this.onMenuSelected_Delete);
             // 
             // menuItem_Rename
             // 
-            resources.ApplyResources(this.menuItem_Rename, "menuItem_Rename");
             this.menuItem_Rename.Name = "menuItem_Rename";
+            resources.ApplyResources(this.menuItem_Rename, "menuItem_Rename");
             this.menuItem_Rename.Click += new System.EventHandler(this.onMenuSelected_Rename);
             // 
             // iconList
@@ -160,15 +160,15 @@
             // 
             // directBox
             // 
-            resources.ApplyResources(this.directBox, "directBox");
             this.directBox.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.directBox.Name = "directBox";
+            resources.ApplyResources(this.directBox, "directBox");
             this.directBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.DirectBoxDispatchKeyEvent);
             // 
             // statusText
             // 
-            resources.ApplyResources(this.statusText, "statusText");
             this.statusText.Name = "statusText";
+            resources.ApplyResources(this.statusText, "statusText");
             // 
             // MainActivity
             // 
