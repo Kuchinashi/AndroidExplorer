@@ -150,10 +150,10 @@ namespace AndroidExplorer {
             }
 
             System.Diagnostics.Process p = System.Diagnostics.Process.Start(path);
-            if (p != null) { 
-                p.WaitForExit();
+            if (p == null) { 
                 return false;
             }  
+            p.WaitForExit();
 
             string afterMd5 = FileUtils.md5(path);
             if (beforeMd5 == null || afterMd5 == string.Empty) {
