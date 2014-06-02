@@ -124,7 +124,8 @@
     <value>選択した項目を削除しますか？</value>
   </data>
   <data name="DetectedFileHasModified" xml:space="preserve">
-    <value>ファイルの変更を検知しました．\n端末へpushしますか？</value>
+    <value>ファイルの変更を検知しました．
+端末へpushしますか？</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>エラー</value>

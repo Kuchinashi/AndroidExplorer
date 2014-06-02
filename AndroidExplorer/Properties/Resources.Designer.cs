@@ -79,7 +79,8 @@ namespace AndroidExplorer.Properties {
         }
         
         /// <summary>
-        ///   Detected file has changed.\nDo you hope push the file to device? に類似しているローカライズされた文字列を検索します。
+        ///   Detected file has changed.
+        ///Do you hope push the file to device? に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string DetectedFileHasModified {
             get {

@@ -149,13 +149,13 @@
   <data name="link.Width" type="System.Int32, mscorlib">
     <value>300</value>
   </data>
-  <metadata name="contextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="contextMenu.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>238, 17</value>
-  </metadata>
+  </data>
   <data name="menuRefresh.ShortcutKeyDisplayString" xml:space="preserve">
     <value>F5</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="menuRefresh.Size" type="System.Drawing.Size, System.Drawing">
     <value>244, 22</value>
   </data>
@@ -219,9 +219,9 @@
   <data name="&gt;&gt;listView.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <metadata name="iconList.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="iconList.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>141, 17</value>
-  </metadata>
+  </data>
   <data name="iconList.ImageSize" type="System.Drawing.Size, System.Drawing">
     <value>16, 16</value>
   </data>
@@ -249,9 +249,9 @@
   <data name="&gt;&gt;directBox1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+  <data name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing">
     <value>367, 17</value>
-  </metadata>
+  </data>
   <data name="toolStrip1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
   </data>
@@ -291,14 +291,14 @@
   <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="$this.Localizable" type="System.Boolean, mscorlib">
     <value>True</value>
-  </metadata>
+  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1008, 474</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Android Explorer (v1.0.5 alpha)</value>
+    <value>Android Explorer (v1.0.6 alpha)</value>
   </data>
   <data name="&gt;&gt;fileName.Name" xml:space="preserve">
     <value>fileName</value>

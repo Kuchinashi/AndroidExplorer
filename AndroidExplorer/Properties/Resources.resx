@@ -124,8 +124,8 @@
     <value>Are you sure you want to delete the selected item?</value>
   </data>
   <data name="DetectedFileHasModified" xml:space="preserve">
-    <value>Detected file has changed.\nDo you hope push the file to device?</value>
-    <comment> </comment>
+    <value>Detected file has changed.
+Do you hope push the file to device?</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>Error</value>
