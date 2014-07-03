@@ -1,36 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Android Explorer by Kuchinashi</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  <body>
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Android Explorer</title>
+  <meta name="description" content="Android File Explorer on Windows">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Android Explorer</h1>
+    </header>
     <div id="container">
-      <div class="inner">
-
-        <header>
-          <h1>Android Explorer</h1>
-          <h2>Android File Explorer on Windows</h2>
-        </header>
-
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/Kuchinashi/AndroidExplorer/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
-          <a href="https://github.com/Kuchinashi/AndroidExplorer/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
-          <a href="https://github.com/Kuchinashi/AndroidExplorer" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
+      <p class="tagline">Android File Explorer on Windows</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/Kuchinashi/AndroidExplorer/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/Kuchinashi/AndroidExplorer/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/Kuchinashi/AndroidExplorer" class="code">View Android Explorer on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
           <h1>
 <a name="androidexplorer" class="anchor" href="#androidexplorer"><span class="octicon octicon-link"></span></a>AndroidExplorer</h1>
 
@@ -64,9 +69,7 @@ Apache 2.0 License</p>
 <h2>
 <a name="quick-documents" class="anchor" href="#quick-documents"><span class="octicon octicon-link"></span></a>Quick Documents</h2>
 
-<ol>
-<li>Key Event</li>
-</ol><table>
+<table>
 <thead><tr>
 <th>Key</th>
 <th>Description</th>
@@ -85,31 +88,114 @@ Apache 2.0 License</p>
 <td>Delete the selected item(s).</td>
 </tr>
 </tbody>
-</table><ol>
-<li>
-<p>Context Menu</p>
+</table><table>
+<thead><tr>
+<th>Context Menu</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Refresh file list.</td>
+</tr>
+<tr>
+<td>Download the selected item(s).</td>
+</tr>
+<tr>
+<td>Delete the selected item(s).</td>
+</tr>
+<tr>
+<td>Rename file</td>
+</tr>
+</tbody>
+</table><table>
+<thead><tr>
+<th>Drag and Drop</th>
+</tr></thead>
+<tbody><tr>
+<td>Drag and Drop the file(s) or folder(s) of Windows, to push the current location of the Android Explorer.</td>
+</tr></tbody>
+</table><table>
+<thead><tr>
+<th>Text box in the lower right</th>
+</tr></thead>
+<tbody><tr>
+<td>Move directly to the directory.</td>
+</tr></tbody>
+</table><h2>
+<a name="quick-documents---ja" class="anchor" href="#quick-documents---ja"><span class="octicon octicon-link"></span></a>Quick Documents - ja</h2>
 
-<ol>
-<li>Refresh file list.</li>
-<li>Download the selected item(s).</li>
-<li>Delete the selected item(s).</li>
-<li>Rename file</li>
-</ol>
-</li>
-<li><p>Drag and Drop</p></li>
-</ol><p>Drag and Drop the file(s) or folder(s) of Windows, to push the current location of the Android Explorer.</p>
+<table>
+<thead><tr>
+<th>キー</th>
+<th>概要</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>F2</td>
+<td>選択されたファイル/フォルダの名前を変更します．</td>
+</tr>
+<tr>
+<td>F5</td>
+<td>ファイル一覧を更新します．</td>
+</tr>
+<tr>
+<td>Del</td>
+<td>選択されたファイル/フォルダを削除します．（複数可）</td>
+</tr>
+</tbody>
+</table><table>
+<thead><tr>
+<th>右クリックメニュー</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>ファイル一覧を更新します．</td>
+</tr>
+<tr>
+<td>選択されたファイル/フォルダを指定のフォルダへダウンロードします．（複数可）</td>
+</tr>
+<tr>
+<td>選択されたファイル/フォルダを削除します．（複数可）</td>
+</tr>
+<tr>
+<td>選択されたファイル/フォルダの名前を変更します．</td>
+</tr>
+</tbody>
+</table><table>
+<thead><tr>
+<th>ドラッグアンドドロップ</th>
+</tr></thead>
+<tbody><tr>
+<td>WindowsのエクスプローラからAndroid Explorerへファイルやフォルダをドラッグ＆ドロップすると，端末へ転送します．</td>
+</tr></tbody>
+</table><table>
+<thead><tr>
+<th>右下のテキストボックス</th>
+</tr></thead>
+<tbody><tr>
+<td>入力されたAndroid側のパスへダイレクトに移動します．</td>
+</tr></tbody>
+</table>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/Kuchinashi" class="avatar"><img src="https://avatars0.githubusercontent.com/u/1761870?s=60" width="48" height="48"/></a> <a href="https://github.com/Kuchinashi">Kuchinashi</a> maintains <a href="https://github.com/Kuchinashi/AndroidExplorer">Android Explorer</a></p>
 
-<ol>
-<li>Text box in the lower right</li>
-</ol><p>Move directly to the directory.</p>
-        </section>
 
-        <footer>
-          Android Explorer is maintained by <a href="https://github.com/Kuchinashi">Kuchinashi</a><br>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="http://pages.github.com/">GitHub Pages</a><br/>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/Kuchinashi/AndroidExplorer/tarball/master" class="tar">tar</a><a href="https://github.com/Kuchinashi/AndroidExplorer/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
 
-                  <script type="text/javascript">
+            <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
@@ -120,7 +206,5 @@ Apache 2.0 License</p>
             } catch(err) {}
           </script>
 
-      </div>
-    </div>
-  </body>
+</body>
 </html>
